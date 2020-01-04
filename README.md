@@ -13,10 +13,10 @@ word embeddings -> avarage on words -> fully connected
 https://www.fast.ai/  
 Defaults and used like in docs
 
-Current results:
+## Current results:
 
-| model        | precision     | train time |
+| model        | precision     | train time [mm:ss]|
 | ------------- |:-------------:| :-------------:|
-| fasttext      |               | |
+| fasttext      |     0.938          |    00:18     |
 | SimpleNN      |               | |
 |  fastai      |               | |
