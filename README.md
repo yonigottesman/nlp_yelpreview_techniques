@@ -3,7 +3,7 @@ https://www.yelp.com/dataset/challenge
 
 ## fasttext 
 https://fasttext.cc/  
-Used with default parameters.
+Parameters as used in https://github.com/facebookresearch/fastText/blob/master/classification-results.sh
 
 ## SimpleNN
 Simple neural network implemented in pytorch.  
@@ -17,6 +17,6 @@ Defaults and used like in docs
 
 | model        | precision     | train time [mm:ss]|
 | ------------- |:-------------:| :-------------:|
-| fasttext      |     0.938          |    00:18     |
+| fasttext      |     0.956          |    00:19     |
 | SimpleNN      |               | |
 |  fastai      |               | |
