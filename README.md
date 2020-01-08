@@ -17,6 +17,9 @@ Defaults and used like in docs
 
 | model        | precision     | train time [mm:ss]|
 | ------------- |:-------------:| :-------------:|
-| fasttext      |     0.956          |    00:19     |
-| SimpleNN      |               | |
+| fasttext      |     0.956          |    00:26     |
+| SimpleNN      |       0.94        |     03:47 |
+| gru      |       0.962        |     08:00 |
+| bi-lstm * 2      |       0.967        |     25:00 |
 |  fastai      |               | |
+|  BERT      |               | |
