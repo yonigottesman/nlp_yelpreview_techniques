@@ -27,4 +27,4 @@ sklearn tfidf + logistic
 | gru      |       0.962        |     08:00 |
 | bi-lstm * 2      |       0.967 |     25:00 |
 |  tfidf      |        0.939       |    00:16 |
-|  BERT      |               | |
+|  BERT - fine tuning      |   0.997            |224:00 |
