@@ -9,12 +9,17 @@ Parameters as used in https://github.com/facebookresearch/fastText/blob/master/c
 Simple neural network implemented in pytorch.  
 word embeddings -> avarage on words -> fully connected
 
-## fastai  
-https://www.fast.ai/  
-Defaults and used like in docs
+## rnn
+Some rnn networks inplemented in pytorch.
+gru, bi-lstm
 
 ## tfidf
 sklearn tfidf + logistic
+
+## bert
+Fine tuning the whole bert model with an additional linear layer.  
+To save money (google cloud run time...) I use only 100K train examples.  
+To fit in gpu memory i use only 128 tokens (long examples get cut).
 
 
 
@@ -27,4 +32,4 @@ sklearn tfidf + logistic
 | gru      |       0.962        |     08:00 |
 | bi-lstm * 2      |       0.967 |     25:00 |
 |  tfidf      |        0.939       |    00:16 |
-|  BERT - fine tuning      |   0.997            |224:00 |
+|  **BERT** - fine tuning      |   0.997            |224:00|
